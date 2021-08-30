@@ -46,3 +46,6 @@ opentelemetry_ecto:
 
 opentelemetry_phoenix:
   - instrumentation/opentelemetry_phoenix/**/*
+
+opentelemetry_oban:
+  - instrumentation/opentelemetry_oban/**/*
