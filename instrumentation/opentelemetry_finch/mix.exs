@@ -31,7 +31,7 @@ defmodule OpentelemetryFinch.MixProject do
       {:opentelemetry_telemetry, "~> 1.0.0"},
       {:opentelemetry_exporter, "~> 1.0", only: [:dev, :test]},
       {:opentelemetry, "~> 1.0", only: [:dev, :test]},
-      {:finch, github: "sneako/finch"},
+      {:finch, "~> 0.12.0"},
       {:ex_doc, "~> 0.28.3", only: [:dev], runtime: false}
     ]
   end
